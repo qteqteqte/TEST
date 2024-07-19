@@ -1,4 +1,6 @@
-﻿namespace TEST;
+﻿using System.Security.Cryptography;
+
+namespace TEST;
 public class CHECK_NUMBER
 {
     static void Main(String []args)
@@ -39,6 +41,7 @@ public class CHECK_NUMBER
                     continue;
                 }
                 
+                number_check(ref number);
                 break;
             }
 
@@ -50,7 +53,8 @@ public class CHECK_NUMBER
                     continue;
                 }
                 
-                number = number.Substring(6);
+                number = number.Substring(0, 6) + number.Substring(7);
+                number_check(ref number);
             }
 
             else
@@ -63,14 +67,14 @@ public class CHECK_NUMBER
     public static void number_check(ref string number)
     {
         int[] number_check = {2,3,4,5,6,7,8,9,2,3,4,5};
-        int k;
+        int[] k = new int[number_check.Length];
         int sum = 0;
         int avg = 0;
 
         for(int i=0; i<12; i++)
         {
-            k = number_check[i]*number[i];
-            sum += k;
+            k[i] = number_check[i] * number[i];
+            sum += k[i];
         }
 
         avg = 11 - (sum%11);
@@ -87,14 +91,14 @@ public class CHECK_NUMBER
             gender = "여자";
         }
 
-        if(avg == number[13])
+        if(avg == number[12])
         {
             Console.WriteLine("정상 주민번호입니다. {0}", gender);
         }
 
         else
         {
-        Console.WriteLine("주민번호가 틀립니다.");
+            Console.WriteLine("주민번호가 틀립니다.");
         }
     }
 }
