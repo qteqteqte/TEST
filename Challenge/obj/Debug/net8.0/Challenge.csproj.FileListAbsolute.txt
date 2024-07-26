@@ -12,3 +12,4 @@ c:\TEST\Challenge\obj\Debug\net8.0\refint\Challenge.dll
 c:\TEST\Challenge\obj\Debug\net8.0\Challenge.pdb
 c:\TEST\Challenge\obj\Debug\net8.0\Challenge.genruntimeconfig.cache
 c:\TEST\Challenge\obj\Debug\net8.0\ref\Challenge.dll
+c:\TEST\Challenge\obj\Debug\net8.0\Challenge.sourcelink.json

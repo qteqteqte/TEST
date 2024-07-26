@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TEST\\Challenge\\Challenge.csproj": {}
+    "c:\\TEST\\Challenge\\Challenge.csproj": {}
   },
   "projects": {
-    "C:\\TEST\\Challenge\\Challenge.csproj": {
+    "c:\\TEST\\Challenge\\Challenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TEST\\Challenge\\Challenge.csproj",
+        "projectUniqueName": "c:\\TEST\\Challenge\\Challenge.csproj",
         "projectName": "Challenge",
-        "projectPath": "C:\\TEST\\Challenge\\Challenge.csproj",
+        "projectPath": "c:\\TEST\\Challenge\\Challenge.csproj",
         "packagesPath": "C:\\Users\\sooye\\.nuget\\packages\\",
-        "outputPath": "C:\\TEST\\Challenge\\obj\\",
+        "outputPath": "c:\\TEST\\Challenge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sooye\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -3,7 +3,7 @@
 namespace TEST;
 public class CHECK_NUMBER
 {
-    static void Main(String []args)
+    static void Main1(String []args)
     {
         program_start();
     }
